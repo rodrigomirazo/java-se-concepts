@@ -1,4 +1,4 @@
-package com.tcs.encapsulation.pojo;
+package com.tcs.encapsulation.pojos;
 
 import java.util.Arrays;
 

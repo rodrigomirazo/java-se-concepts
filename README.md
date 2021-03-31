@@ -157,3 +157,45 @@ Example:
 </table>
 
 ## 4. Abstract Class and methods in detail
+
+    A class which is declared with the abstract keyword is known as an abstract class in Java.
+    It can have abstract and non-abstract methods (method with the body).
+
+#### Abstract methods
+
+    abstract class A {
+        abstract void printStatus(String status);
+        abstract void printStatus();
+    }
+
+<ul>
+    <li>Abstract Methods DOES NOT have implementation body </li>
+    <li>Abstract Methods needs to have implementation in subclasses.</li>
+    <li>Abstract Methods behaves similarly like, methods in interfaces</li>
+</ul>
+
+#### Concrete methods
+
+    abstract class B {
+        abstract void printStatus(String status) {  }
+        abstract void printStatus() {  }
+    }
+
+<ul>
+    <li>Concrete Methods HAVE implementation body </li>
+    <li>Concrete Methods can OPTIONALLY have implementation in subclasses.</li>
+    <li>Concrete Methods behaves similarly like, methods in generic classes.</li>
+</ul>
+
+<br>
+
+#### Differents between Abstract Classes & Interfaces
+
+<table class="alt">
+<tbody><tr><th>Abstract class</th><th>Interface</th></tr>
+<tr><td>1) Abstract class <strong>doesn't support multiple inheritance</strong>.</td><td>Interface <strong>supports multiple inheritance</strong>.</td></tr>
+<tr><td>2) Abstract class <strong>can have final, non-final, static and non-static variables</strong>.</td><td>Interface has <strong>only static and final variables</strong>.</td></tr>
+<tr><td>3) An <strong>abstract class</strong> can extend another Java class and implement multiple Java interfaces.</td><td>An <strong>interface</strong> can extend another Java interface only.</td></tr>
+<tr><td>4) An <strong>abstract class</strong> can be extended using keyword "extends".</td><td> An <strong>interface</strong> can be implemented using keyword "implements".</td></tr>
+<tr><td>5) A Java <strong>abstract class</strong> can have class members like private, protected, etc.</td><td>Members of a Java interface are public by default. </td></tr>
+</tbody></table>

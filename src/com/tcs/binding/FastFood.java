@@ -5,6 +5,7 @@ public class FastFood {
         System.out.println(" Creating in FastFood class");
     }
 }
+
 class Pizza extends FastFood {
     public void create() {
         System.out.println(" Creating in Pizza class");
