@@ -158,8 +158,9 @@ Example:
 
 ## 4. Abstract Class and methods in detail
 
-    A class which is declared with the abstract keyword is known as an abstract class in Java.
-    It can have abstract and non-abstract methods (method with the body).
+    - A class which is declared with the abstract keyword is known as an abstract class in Java.
+    - It can have abstract and non-abstract methods (method with the body).
+    - Hibrid Between Interface and Class
 
 #### Abstract methods
 
