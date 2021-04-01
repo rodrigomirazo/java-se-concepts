@@ -24,8 +24,17 @@ class Tsuru extends Vehicle {
 class ChevyC2 extends Vehicle {
 }
 
+class Jetta extends Vehicle {
+}
+
 class Test {
     public static void main(String[] args) {
+
+        Vehicle leonardosJetta = new Jetta(); // Java doent know the TYPE of leonardosJetta
+
+        Vehicle myCar = new Tsuru();
+
+
         TeslaModel3 tesla = new TeslaModel3();
         Tsuru tsuru = new Tsuru();
         ChevyC2 chevyC2 = new ChevyC2();

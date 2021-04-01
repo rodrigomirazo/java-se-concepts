@@ -135,9 +135,9 @@ Connecting a method call to the method body is known as binding.
 
 Example:
 
-    Integer age = new Integer(1); // binding the value 0 to number
-    A a = new A();  // binding the value of A() to a
-    B b = new A();  // binding the value of A() to a
+    Integer age = new Integer(1); // binding the value 0 to number - Static
+    A a = new A();  // binding the value of A() to a - Static
+    B b = new A();  // binding the value of A() to a - Dynamic
 
 ##### Types of Binding
 

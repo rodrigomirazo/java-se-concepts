@@ -1,7 +1,7 @@
 package com.tcs.encapsulation;
 
 import com.tcs.encapsulation.pojos.CarByPieces;
-import com.tcs.encapsulation.pojos.CarEncapsulated;
+import com.tcs.encapsulation.pojos.*;
 
 public class RunEncapsulation {
 
